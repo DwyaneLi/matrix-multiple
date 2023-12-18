@@ -1,0 +1,1 @@
+/usr/bin/c++   -fopenmp -O3 -DNDEBUG    CMakeFiles/matrix_multiple.dir/matrix_multiple.cc.o  -o matrix_multiple  /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.so /usr/lib/x86_64-linux-gnu/libpthread.so 

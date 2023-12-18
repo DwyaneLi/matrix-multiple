@@ -1,0 +1,216 @@
+# started on Mon Dec 18 22:29:55 2023
+
+
+ Performance counter stats for './bin/matrix_multiple 32 s':
+
+            71,754      cpu-cycles                                                  
+            71,176      instructions              #    0.99  insn per cycle         
+            12,101      branches                                                    
+               264      branch-misses             #    2.18% of all branches        
+               847      cache-references                                            
+               203      cache-misses              #   23.967 % of all cache refs    
+
+       0.001563848 seconds time elapsed
+
+       0.000000000 seconds user
+       0.000000000 seconds sys
+
+
+# started on Mon Dec 18 22:29:55 2023
+
+
+ Performance counter stats for './bin/matrix_multiple 32 r':
+
+            60,063      cpu-cycles                                                  
+            34,921      instructions              #    0.58  insn per cycle         
+             6,528      branches                                                    
+               290      branch-misses             #    4.44% of all branches        
+               663      cache-references                                            
+                71      cache-misses              #   10.709 % of all cache refs    
+
+       0.001356225 seconds time elapsed
+
+       0.000000000 seconds user
+       0.000000000 seconds sys
+
+
+# started on Mon Dec 18 22:29:55 2023
+
+
+ Performance counter stats for './bin/matrix_multiple 32 b 8':
+
+           114,889      cpu-cycles                                                  
+           426,037      instructions              #    3.71  insn per cycle         
+            52,051      branches                                                    
+               231      branch-misses             #    0.44% of all branches        
+               405      cache-references                                            
+                15      cache-misses              #    3.704 % of all cache refs    
+
+       0.003758595 seconds time elapsed
+
+       0.000000000 seconds user
+       0.000000000 seconds sys
+
+
+# started on Mon Dec 18 22:29:55 2023
+
+
+ Performance counter stats for './bin/matrix_multiple 32 v':
+
+            32,708      cpu-cycles                                                  
+            40,476      instructions              #    1.24  insn per cycle         
+             6,169      branches                                                    
+               118      branch-misses             #    1.91% of all branches        
+               419      cache-references                                            
+                55      cache-misses              #   13.126 % of all cache refs    
+
+       0.002667601 seconds time elapsed
+
+       0.000000000 seconds user
+       0.000000000 seconds sys
+
+
+# started on Mon Dec 18 22:29:55 2023
+
+
+ Performance counter stats for './bin/matrix_multiple 32 w 8':
+
+            42,386      cpu-cycles                                                  
+            54,598      instructions              #    1.29  insn per cycle         
+             7,620      branches                                                    
+               136      branch-misses             #    1.78% of all branches        
+               427      cache-references                                            
+                63      cache-misses              #   14.754 % of all cache refs    
+
+       0.001971026 seconds time elapsed
+
+       0.000000000 seconds user
+       0.000000000 seconds sys
+
+
+# started on Mon Dec 18 22:29:55 2023
+
+
+ Performance counter stats for './bin/matrix_multiple 4096 s':
+
+ 1,416,177,787,188      cpu-cycles                                                  
+   415,395,022,386      instructions              #    0.29  insn per cycle         
+    69,288,797,069      branches                                                    
+        18,105,099      branch-misses             #    0.03% of all branches        
+    69,998,914,215      cache-references                                            
+    25,502,147,273      cache-misses              #   36.432 % of all cache refs    
+
+     508.008367569 seconds time elapsed
+
+       0.000000000 seconds user
+       0.000000000 seconds sys
+
+
+# started on Mon Dec 18 22:38:23 2023
+
+
+ Performance counter stats for './bin/matrix_multiple 4096 r':
+
+    90,992,768,164      cpu-cycles                                                  
+    24,421,289,258      instructions              #    0.27  insn per cycle         
+     2,281,991,522      branches                                                    
+         8,492,050      branch-misses             #    0.37% of all branches        
+     8,207,992,715      cache-references                                            
+     3,266,462,424      cache-misses              #   39.796 % of all cache refs    
+
+      34.365878678 seconds time elapsed
+
+       0.000000000 seconds user
+       0.000000000 seconds sys
+
+
+# started on Mon Dec 18 22:38:58 2023
+
+
+ Performance counter stats for './bin/matrix_multiple 4096 b 256':
+
+    51,482,392,506      cpu-cycles                                                  
+    58,912,667,408      instructions              #    1.14  insn per cycle         
+     9,726,203,359      branches                                                    
+         1,119,795      branch-misses             #    0.01% of all branches        
+     9,207,498,820      cache-references                                            
+       415,729,709      cache-misses              #    4.515 % of all cache refs    
+
+      20.351796108 seconds time elapsed
+
+       0.000000000 seconds user
+       0.000000000 seconds sys
+
+
+# started on Mon Dec 18 22:39:18 2023
+
+
+ Performance counter stats for './bin/matrix_multiple 4096 v':
+
+    93,665,254,023      cpu-cycles                                                  
+    60,909,450,561      instructions              #    0.65  insn per cycle         
+     8,721,072,974      branches                                                    
+        16,866,678      branch-misses             #    0.19% of all branches        
+     8,358,347,715      cache-references                                            
+     4,071,572,413      cache-misses              #   48.713 % of all cache refs    
+
+      36.642519825 seconds time elapsed
+
+       0.000000000 seconds user
+       0.000000000 seconds sys
+
+
+# started on Mon Dec 18 22:39:55 2023
+
+
+ Performance counter stats for './bin/matrix_multiple 4096 v o':
+
+   203,763,125,685      cpu-cycles                                                  
+    89,629,733,633      instructions              #    0.44  insn per cycle         
+     9,436,430,178      branches                                                    
+        18,477,012      branch-misses             #    0.20% of all branches        
+     8,688,602,733      cache-references                                            
+       571,269,484      cache-misses              #    6.575 % of all cache refs    
+
+       2.978681278 seconds time elapsed
+
+       0.000000000 seconds user
+       0.000000000 seconds sys
+
+
+# started on Mon Dec 18 22:39:58 2023
+
+
+ Performance counter stats for './bin/matrix_multiple 4096 w 256':
+
+    51,916,274,739      cpu-cycles                                                  
+    62,623,738,250      instructions              #    1.21  insn per cycle         
+     8,920,939,461      branches                                                    
+         1,108,266      branch-misses             #    0.01% of all branches        
+     9,361,122,444      cache-references                                            
+       319,282,916      cache-misses              #    3.411 % of all cache refs    
+
+      20.519249499 seconds time elapsed
+
+       0.000000000 seconds user
+       0.000000000 seconds sys
+
+
+# started on Mon Dec 18 22:40:18 2023
+
+
+ Performance counter stats for './bin/matrix_multiple 4096 w 256 o':
+
+    56,165,880,046      cpu-cycles                                                  
+    89,793,402,661      instructions              #    1.60  insn per cycle         
+     9,156,321,047      branches                                                    
+         1,148,322      branch-misses             #    0.01% of all branches        
+    10,813,164,140      cache-references                                            
+        80,775,801      cache-misses              #    0.747 % of all cache refs    
+
+       2.194383993 seconds time elapsed
+
+       0.000000000 seconds user
+       0.000000000 seconds sys
+
+

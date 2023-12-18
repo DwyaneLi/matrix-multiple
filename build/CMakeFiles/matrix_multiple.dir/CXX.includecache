@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../matrix_multiple.hh
+stdio.h
+-
+malloc.h
+-
+cstdlib
+-
+random
+-
+iostream
+-
+ctime
+-
+time.h
+-
+sys/time.h
+-
+string.h
+-
+fstream
+-
+unistd.h
+-
+mmintrin.h
+-
+xmmintrin.h
+-
+immintrin.h
+-
+omp.h
+-
+
+/home/io500/sys_structure_lab/matrix_multiple.cc
+matrix_multiple.hh
+-
+

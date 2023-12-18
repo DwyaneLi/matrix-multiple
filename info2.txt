@@ -1,0 +1,18 @@
+# started on Mon Dec 18 22:04:49 2023
+
+
+ Performance counter stats for './bin/matrix_multiple 4096 s':
+
+ 1,375,513,606,225      cpu-cycles                                                  
+   414,298,460,986      instructions              #    0.30  insn per cycle         
+    69,090,832,726      branches                                                    
+        18,032,371      branch-misses             #    0.03% of all branches        
+    69,903,885,228      cache-references                                            
+    19,491,239,047      cache-misses              #   27.883 % of all cache refs    
+
+     493.540721910 seconds time elapsed
+
+       0.000000000 seconds user
+       0.000000000 seconds sys
+
+
